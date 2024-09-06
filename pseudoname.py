@@ -170,8 +170,9 @@ while True:  # means keep running until i tell you to stop.
     lastName = random.choice(last)
 
     print("\n\n")
-    print("{}{}".format(firstName, lastName), file=sys.stderr)
-    print("\n\n")
+    #print("{}{}".format(firstName, lastName), file=sys.stderr)
+   print(f"{firstName}, {lastName}" file=sys.stderr)
+   print("\n\n")
 
     try_again = input("\n\nTry again? (Press Enter else n to quit)\n")
     if try_again.lower() == "n":
