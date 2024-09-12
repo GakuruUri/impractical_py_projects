@@ -35,7 +35,7 @@ def remove_match_char(list1, list2):
 if __name__ == "__main__":
 
 	# take first name
-	p1 = input("Player 1 name : ")
+	p1 = input("Player 1 name : \n")
 
 	# converted all letters into lower case
 	p1 = p1.lower()
@@ -47,7 +47,7 @@ if __name__ == "__main__":
 	p1_list = list(p1)
 
 	# take 2nd name
-	p2 = input("Player 2 name : ")
+	p2 = input("Player 2 name : \n")
 	p2 = p2.lower()
 	p2.replace(" ", "")
 	p2_list = list(p2)
